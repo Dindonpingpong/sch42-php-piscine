@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+    
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1%;
+    background-color: #505050;
+  }
+  
+  /* Style the header */
+  .header {
+    background-color: #919191;
+    box-shadow: 10px 10px 10px 5px black;
+    margin-bottom: 10px;
+    height: 150px;
+    border-radius: 20px;
+  }
+  
+  .day{
+    width: 500px;
+    padding-left: 0;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+  }
+
+  .reload{
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+
+  .close{
+    float: right;
+    margin-top: 100px;
+    margin-bottom: -10px;
+    margin-right: -20px;
+  }
+
+  .loupe{
+    margin-left: 80%;
+    margin-top: -240px;
+  }
+
+  .left{
+    background: #919191;
+    width: 80px;
+    height: 80px;
+    margin-left: 40px;
+  }
+
+  .right{
+    background: #919191;
+    width: 90px;
+    float: left;
+    margin-left: 40px;
+  }
+
+  .right.brick{
+    margin-left: 5px;
+    width: 160px;
+    height: 60px;
+  }
+
+  /* Create three unequal columns that floats next to each other */
+  .column {
+    border-radius: 20px;
+    float: left;
+    padding: 10px;
+    box-shadow: 10px 10px 10px 5px black;
+    margin-bottom: 20px;
+  }
+  
+  .row{
+    position: relative;
+    min-height: 500px;
+    height: 100%;
+    z-index: 0;
+  }
+  /* Left and right column */
+  .column.side {
+    width: 12%;
+    box-shadow: 10px 10px 10px 5px black;
+    padding: 10px;
+    margin-right: 2%;
+    margin-left: 2%;
+    min-height: 450px;
+    background: #919191;
+  }
+
+  /* Middle column */
+  .column.middle {
+    width: 68%;
+    box-shadow: 10px 10px 10px 5px black;
+    height: 100%;
+    min-height: 500px;
+    z-index: 0;
+    background: #919191;
+  }
+  
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    z-index: 0;
+  }
+  
+  /* Style the footer */
+  .footer {
+    position: relative;
+    width: 500px;
+    height: 150px;
+    margin-left: -50px;
+    background-color: #88ff89;
+    box-shadow: 10px 10px 10px 5px black;
+    z-index: 2;
+    margin-top: -100px;
+    border-radius: 20px;
+  }
+  
+  p{
+    font-size: 18px;
+    float: left;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: -90px;
+  }
+
+  .bonjour{
+    font-style: oblique;
+    float: left;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: -50px;
+  }
+
+  form{
+    float: left;
+    margin-left: 10px;
+    margin-top: -25px;
+  }
+
+  .inp{
+    width: 350px;
+  }
+
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media (max-width: 600px) {
+    .column.side, .column.middle {
+      width: 100%;
+    }
+  }
