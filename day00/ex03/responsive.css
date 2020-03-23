@@ -1,0 +1,65 @@
+.main{
+    overflow-y: auto;
+}
+table {
+    width: 99vw;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1vw;
+}
+
+td{
+    width: 0.5vw;
+}
+
+#number{
+    text-align: right;
+    margin-right: 5px;
+}
+#element{
+    text-align: center;
+    font-weight: bold;
+}
+#weight{
+    text-align: left;
+    margin-left: 5px;
+}
+#blank{
+    border: 0;
+}
+#nonmetal{
+    background-color: #f2e961;
+}
+#alkali-metal
+{
+    background-color: #f26161;
+}
+#alkaline-metal{
+    background-color: #ab70db;
+}
+#metalloid{
+    background-color: #70db89;
+}
+#gas{
+    background-color: #dbbe70;
+}
+#ps-metal{
+    background-color: #b3e39f;
+}
+#trans-metal{
+    background-color: #97c2f7;
+}
+#lanthanide{
+    background-color: #b3f5ea;
+}
+#actinide{
+    background-color: #b3f5d0;
+}
+h1{
+    text-align: center;
+}
+#blank{
+    background-image: url(https://d2cbg94ubxgsnp.cloudfront.net/Pictures/2000x2000fit/0/8/1/135081_Index-and-hero---A-picture-is-worth-a-thousand-word.jpg);
+}
