@@ -1,0 +1,1 @@
+SELECT COUNT(name) AS 'nb_susc', AVG(price) AS 'av_susc', SUM(duration_sub) AS 'ft' FROM subscription;
